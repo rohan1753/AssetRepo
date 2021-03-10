@@ -32,7 +32,7 @@ pipeline {
 	
 	stage('Push Customer image To K8'){
 		steps{
-		sh '${WORKSPACE}/DeployCustomerImageToK8.sh'
+		sh '${WORKSPACE}/DeployCustomerImageToK8.sh 1'
 	    }
 	}
     }
