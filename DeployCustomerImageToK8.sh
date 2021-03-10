@@ -2,5 +2,5 @@
 #
 
 cd /opt/rancher
-./rancher login https://k8s.eur.ad.sag/v3 --token token-vzcht:b6drnslrqsf2cnwnxr8jxp572zqkj4fl5hzxjq94tgl22qh4xdq2r9
+./rancher login https://rancher.eur.ad.sag/v3 --token token-xkbx9:ssplxvz2dfrwsjqkbpsbwbs9mttmrbl2ksgmc2zqfrzpsv6t5jcv55
 ./rancher kubectl create -f ${WORKSPACE}/PushCustomerImageToK8.yaml 
