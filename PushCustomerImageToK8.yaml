@@ -45,7 +45,7 @@ metadata:
   namespace: presales-default
 spec:	
   rules:
-  - host: ENDPOINT.vmnxpsn01.eur.ad.sag
+  - host: ENDPOINT.rancher.eur.ad.sag
     http:
       paths:
       - backend:
@@ -54,7 +54,7 @@ spec:
         path: /
   tls:
   - hosts:
-    - ENDPOINT.vmnxpsn01.eur.ad.sag
-    secretName: vmnxpsn01 
+    - ENDPOINT.rancher.eur.ad.sag
+    secretName: rancher 
  
 
