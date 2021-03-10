@@ -45,7 +45,7 @@ metadata:
   namespace: presales-default
 spec:	
   rules:
-  - host: ENDPOINT.rancher.eur.ad.sag
+  - host: ENDPOINT.daeipresal51397.rancher.eur.ad.sag
     http:
       paths:
       - backend:
@@ -54,7 +54,7 @@ spec:
         path: /
   tls:
   - hosts:
-    - ENDPOINT.rancher.eur.ad.sag
-    secretName: rancher 
+    - ENDPOINT.daeipresal51397.rancher.eur.ad.sag
+    secretName: daeipresal51397 
  
 
