@@ -1,4 +1,8 @@
 apiVersion: apps/v1 # for versions before 1.8.0 use apps/v1beta1
+kind: Namespace
+metadata:
+  name: presales-default
+---
 kind: Deployment
 metadata:
   name: DEPLOYMENTNAME
@@ -45,7 +49,7 @@ metadata:
   namespace: presales-default
 spec:	
   rules:
-  - host: ENDPOINT.daeipresal51397.rancher.eur.ad.sag
+  - host: ENDPOINT.eur.ad.sag
     http:
       paths:
       - backend:
@@ -54,7 +58,7 @@ spec:
         path: /
   tls:
   - hosts:
-    - ENDPOINT.daeipresal51397.rancher.eur.ad.sag
+    - ENDPOINT.eur.ad.sag
     secretName: daeipresal51397 
  
 
