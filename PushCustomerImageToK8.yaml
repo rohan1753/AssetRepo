@@ -47,7 +47,7 @@ metadata:
   namespace: presales-default
 spec:	
   rules:
-  - host: ENDPOINT.daeipresal51597.eur.ad.sag
+  - host: ENDPOINT.daeipresal51397.eur.ad.sag
     http:
       paths:
       - backend:
@@ -56,7 +56,7 @@ spec:
         path: /
   tls:
   - hosts:
-    - ENDPOINT.daeipresal51597.eur.ad.sag
+    - ENDPOINT.daeipresal51397.eur.ad.sag
     secretName: daeipresal51397
  
 
